@@ -34,6 +34,7 @@ app.get("/:city", function(request, response){
     case "mumbai":
       title = "Mumbai";
       headline = "A financial center, it's India's largest city, is Mumbai";
+      imagesCount = 5;
       break;
     default:
       break;
