@@ -47,7 +47,7 @@ app.get("/:city", function(request, response){
 
 });
 
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 app.listen(PORT, function(request, response){
   console.log("Started instance on localhost:" + PORT);
 });
